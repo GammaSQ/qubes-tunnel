@@ -39,6 +39,6 @@ Install `qubes-repo-contrib` package using `apt-get` or `dnf` in template. Then,
    root@sys-vpn:/home/user# cp user_config.ovpn /rw/config/qtunnel/qtunnel.conf
    ```
 
-Restart `sys-net`. This will autostart the VPN client and you should see a popup notification 'LINK IS UP'!
+Restart `sys-vpn`. This will autostart the VPN client and you should see a popup notification 'LINK IS UP'!
 
 Regular usage is simple: Just use `sys-vpn` as NetVM for other VMs and start them!
