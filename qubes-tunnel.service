@@ -8,7 +8,7 @@
 Description=Tunnel service for Qubes proxyVM
 ConditionPathExists=!/var/run/qubes/this-is-templatevm
 ConditionPathExists=/rw/config/qtunnel
-ConditionPathExistsGlob=/var/run/qubes-service/qubes-tunnel*
+ConditionPathExists=/var/run/qubes-service/qubes-tunnel
 After=network.target qubes-firewall.service rw.mount
 Conflicts=shutdown.target
 
