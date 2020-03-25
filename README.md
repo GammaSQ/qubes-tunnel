@@ -4,6 +4,8 @@ Manage, run, protect VPN connections in Proxy VMs.
 
 This is closely based on the [Qubes-vpn-support](https://github.com/tasket/Qubes-vpn-support) project.
 
+![qubes-tunnel-exa](qubes-tunnel-example.png)
+
 #### Installation:
 
 Install `qubes-repo-contrib` package using `apt-get` or `dnf` in template. Then, install `qubes-tunnel` in the same way.
@@ -42,3 +44,5 @@ Install `qubes-repo-contrib` package using `apt-get` or `dnf` in template. Then,
 Restart `sys-vpn`. This will autostart the VPN client and you should see a popup notification 'LINK IS UP'!
 
 Regular usage is simple: Just use `sys-vpn` as NetVM for other VMs and start them!
+
+
