@@ -1,3 +1,15 @@
+qubes-tunnel (1.4.1-1) unstable; urgency=medium
+
+  * README: update with QubesOS-contrib context
+  * README: precise service needs to be explicitely written
+  * Add travis
+  * package: require 'openvpn'
+  * README: fix typo `sys-vpn`
+  * README: add graph example
+  * Announce available service to Qubes
+
+ -- Frédéric Pierret (fepitre) <frederic.pierret@qubes-os.org>  Sat, 28 Mar 2020 15:41:58 +0100
+
 qubes-tunnel (1.4.0-1) unstable; urgency=medium
 
   * Initial release (Closes: #3503)
