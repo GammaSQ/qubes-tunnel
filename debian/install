@@ -4,3 +4,4 @@ tunnel-restrict-firewall usr/lib/qubes
 qubes-tunnel.service lib/systemd/system
 00_generic.example lib/systemd/system/qubes-tunnel.service.d
 10_wg.example lib/systemd/system/qubes-tunnel.service.d
+20-qubes-tunnel.sh etc/qubes/post-install.d/20-qubes-tunnel.sh

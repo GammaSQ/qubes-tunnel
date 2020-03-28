@@ -9,6 +9,7 @@ URL:		http://github.com/tasket/qubes-tunnel
 Source0:	%{name}-%{version}.tar.gz
 
 Requires:	iptables
+Requires:	openvpn
 Requires:	qubes-core-agent-networking
 
 %description
@@ -46,3 +47,4 @@ systemctl daemon-reload
 /lib/systemd/system/qubes-tunnel.service.d/
 /lib/systemd/system/qubes-tunnel.service.d/00_generic.example
 /lib/systemd/system/qubes-tunnel.service.d/10_wg.example
+/etc/qubes/post-install.d/20-qubes-tunnel.sh
