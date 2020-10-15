@@ -45,4 +45,6 @@ Restart `sys-vpn`. This will autostart the VPN client and you should see a popup
 
 Regular usage is simple: Just use `sys-vpn` as NetVM for other VMs and start them!
 
+#### Troubleshooting
 
+If when you restart `sys-vpn` instead you receive continuous popup notifications stating 'Ready to start link', you may need to troubleshoot the connection. To troubleshoot the connection, you can monitor the systemd service that controls the vpn client with `journalctl -u qubes-tunnel` and view any errors that appear.
