@@ -14,7 +14,7 @@ Install `qubes-repo-contrib` package using `apt-get` or `dnf` in template. Then,
 
 1. Create an AppVM, called for example `sys-vpn`, with the `provides network` option enabled using a template with the previously installed `qubes-tunnel` package. Make a choice for the NetVM setting, such as `sys-firewall`.
 
-2. In `sys-vpn` settings `Services` tab, add `qubes-tunnel-openvpn` service.
+2. In `sys-vpn` settings `Services` tab, add `qubes-tunnel` service.
 
 > Note: There is no need for adding `network-manager` service.
 
