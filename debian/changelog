@@ -1,3 +1,18 @@
+qubes-tunnel (1.4.2-1) unstable; urgency=medium
+
+  [ Michael Carbone ]
+  * Update README.md
+
+  [ shaaati ]
+  * Update README.md
+
+  [ Frédéric Pierret (fepitre) ]
+  * Add .gitlab-ci.yml and drop travis
+  * Makefile: fix 20-qubes-tunnel.sh installed as directory
+  * Fix mangling shebangs
+
+ -- Frédéric Pierret (fepitre) <frederic.pierret@qubes-os.org>  Sun, 21 Mar 2021 14:52:56 +0100
+
 qubes-tunnel (1.4.1-1) unstable; urgency=medium
 
   * README: update with QubesOS-contrib context
