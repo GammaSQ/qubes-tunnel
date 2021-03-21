@@ -17,4 +17,5 @@ install-files:
 	install -d $(DESTDIR)/lib/systemd/system/qubes-tunnel.service.d
 	install -Dm 644 00_generic.example $(DESTDIR)/lib/systemd/system/qubes-tunnel.service.d/00_generic.example
 	install -Dm 644 10_wg.example  $(DESTDIR)/lib/systemd/system/qubes-tunnel.service.d/10_wg.example
+	install -d $(DESTDIR)/etc/qubes/post-install.d
 	install -Dm 755 20-qubes-tunnel.sh $(DESTDIR)/etc/qubes/post-install.d/20-qubes-tunnel.sh
