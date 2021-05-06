@@ -35,7 +35,7 @@ Install `qubes-repo-contrib` package using `apt-get` or `dnf` in template. Then,
    Next, copy or link your config file to /rw/config/qtunnel/qtunnel.conf
    ```
 
-4. Following what's the last sentence said, still as `root` or using `sudo`, in `sys-vpn` copy the OpenVPN config file from your service provider, for example called `user_config.ovpn` to `/rw/config/qtunnel/qtunnel.conf.conf`:
+4. Following what's the last sentence said, still as `root` or using `sudo`, in `sys-vpn` copy the OpenVPN config file from your service provider, for example called `user_config.ovpn` to `/rw/config/qtunnel/qtunnel.conf`:
 
    ```
    root@sys-vpn:/home/user# cp user_config.ovpn /rw/config/qtunnel/qtunnel.conf
