@@ -1,3 +1,13 @@
+qubes-tunnel (1.4.4-1) unstable; urgency=medium
+
+  [ Michael Carbone ]
+  * fix typo in configuration
+
+  [ Frédéric Pierret (fepitre) ]
+  * spec: add BR make
+
+ -- Frédéric Pierret (fepitre) <frederic.pierret@qubes-os.org>  Sat, 09 Oct 2021 11:43:48 +0200
+
 qubes-tunnel (1.4.3-1) unstable; urgency=medium
 
   * Fix Debian post install service
