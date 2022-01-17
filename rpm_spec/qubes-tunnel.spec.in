@@ -13,6 +13,7 @@ BuildRequires:	make
 Requires:	iptables
 Requires:	openvpn
 Requires:	qubes-core-agent-networking
+Requires:	libnotify
 
 %description
 Qubes service for ProxyVMs as secure VPN tunnel gateways. Combines anti-leak
